@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Color My Keyboard</title>
+        <script src="JS/jquery-3.2.1.min.js"></script>
+        <style>
+            td, tr, table {
+                border: 1px solid #0ff;
+            }
+            td {
+                width: 5%;
+                height: 5%;
+                text-align: center;
+                color: #fff;
+            }
+            ._ {
+                background: #999 !important;
+            }
+            body {
+                background: #000;
+            }
+            h1, h3 {
+                color: #0ff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align=center>PLEASE WAIT 10 SECONDS BETWEEN EACH KEY</h1>
+        <table align=center border="1px solid white" id="keyboard">
+        </table>
+        <h3 align=center>Select a color: <input type="color" id="color" value="#00ffff"/></h3>
+        <script src="JS/app.js"></script>
+    </body>
+</html>
